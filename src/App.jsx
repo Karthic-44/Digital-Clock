@@ -17,8 +17,10 @@ function App() {
    });
 
   return (
-   <div>
+   <div className='clock-container'>
+      <div className='clock'>
     {formattedTime}
+      </div>
    </div>
   );
 }
